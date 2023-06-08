@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Welcome to Grovia</title>
+    <link rel="stylesheet" href="JSApplication.css" />
+    <script src="JSApplication.js"></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="head-container">
+        <div class="app-heading">
+          <h1>Welcome to Grovia</h1>
+          <div class="update-container">
+            <p>You are using a</p>
+            &nbsp;
+            <p>free version</p>
+            <button class="primary-btn update-btn" onclick="generate_table()">
+              Update Package
+            </button>
+          </div>
+        </div>
+        <div>
+          <button class="secondary-btn">Export to csv</button>
+          <button class="primary-btn">Print</button>
+          <button class="primary-btn">Add to list</button>
+        </div>
+      </div>
+      <div class="select-conatiner">
+        <select class="primary-select">
+          <option>Approved</option>
+          <option>Rejected</option>
+          <option>on hold</option>
+        </select>
+        <select class="primary-select">
+          <option>Approved</option>
+          <option>Rejected</option>
+          <option>on hold</option>
+        </select>
+      </div>
+      <div>
+        <div class="table-conatiner">
+          <table>
+            <thead>
+              <th>
+                <input type="checkbox" id="select-all" onclick="selectAll()" />
+              </th>
+              <th>Partner Name</th>
+              <th>Content title</th>
+              <th>Content Description</th>
+            </thead>
+            <tbody id="table-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

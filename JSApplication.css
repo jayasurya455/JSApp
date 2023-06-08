@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+}
+.main-container {
+    background: #e5e8f9;
+    padding: 10px;
+}
+.head-container,
+.update-container,
+.select-conatiner {
+	display: flex;
+    align-items: center;
+}
+.app-heading {
+    width: 80%;
+}
+.secondary-btn {
+    color: #ffa500;
+    background: #ffffff;
+    border: none;
+    margin: 5px;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.primary-btn {
+    color: #ffffff;
+    background: #ffa500;
+    border: none;
+    margin: 5px;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.update-btn {
+    border-radius: 20px;
+}
+.primary-select{
+    margin: 5px;
+}
+.column1 {
+    width: 10%;
+    text-align: center;
+}
+.column2 {
+    width: 25%;
+    text-align: center;
+}
+.column3 {
+    width: 25%;
+    text-align: center;
+}
+.column4 {
+    width: 40%;
+}
+.table-conatiner {
+    background: #ffffff;
+    max-height: 400px;
+    overflow: scroll;
+}
+.data-row:hover {
+    background: #f8e6c5;
+}
